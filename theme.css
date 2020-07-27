@@ -215,7 +215,11 @@ code,
   border-radius: 0 !important;
 }
 
-.theme-dark .root-1gCeng, .theme-dark .container-1D34oG {
+.theme-dark .container-1D34oG, .theme-light .container-1D34oG, .actionButton-uPB8Fs, .nowPlayingColumn-2sl4cE{
+  background: transparent;
+}
+
+.theme-dark .root-1gCeng {
   background: var(--background-primary) !important;
 }
 
