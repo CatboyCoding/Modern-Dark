@@ -1,0 +1,9 @@
+{
+    "name": "Frosted Glass",
+    "description": "Display your picture of choice with adjustable blur and brightness. Discord Dark theme is required via the Appearance tab.",
+    "version": "2.0.0",
+    "author": "Gibbu#1211",
+    "theme": "theme.css",
+    "consent": "false",
+    "license": "unknown"
+}
