@@ -47,6 +47,18 @@
   --selected-badge: var(--brand-color) !important;
 }
 
+.bodyInnerWrapper-Z8WDxe > .bodyTitle-Y0qMQz:nth-of-type(3), .bodyInnerWrapper-Z8WDxe > .note-3HfJZ5 {
+  display: none !important;
+}
+
+.infoScroller-3EYYns > .userInfoSection-2acyCx:nth-of-type(1) {
+  display: none !important;
+}
+
+.bodyInnerWrapper-Z8WDxe > .flex-1O1GKY:nth-of-type(2) {
+  margin-bottom: 0 !important;
+}
+
 .lookFilled-1Gx00P.colorBrand-3pXr91, .themeDefault-24hCdX.valueChecked-m-4IJZ {
   background: var(--brand-color);
 }
