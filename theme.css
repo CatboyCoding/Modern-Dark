@@ -436,7 +436,7 @@ div[aria-label="Create Invite"] {
   display: flex;
 }
 
-div[aria-label="Explore Public Servers"] {
+.tutorialContainer-SGrQ1h ~ .listItem-2P_4kh {
   display: none;
 }
 
