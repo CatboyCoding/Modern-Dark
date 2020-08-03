@@ -4,6 +4,5 @@
     "version": "1.0.5",
     "author": "Lil Sizzurp#0001",
     "theme": "theme.css",
-    "consent": "false",
-    "license": "unknown"
+    "license": "MIT"
 }
