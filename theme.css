@@ -679,3 +679,12 @@ div[class^="uploadModal"]>div[class^="footer"] {
 #permissions-popout {
   margin-left: 16px;
 }
+
+.flexChild-faoVW3 > div:nth-of-type(2) > .selectable-2GY4I1 {
+  filter: blur(3px);
+  transition: filter 0.33s;
+}
+
+.flexChild-faoVW3 > div:nth-of-type(2) > .selectable-2GY4I1:hover {
+  filter: blur(0px);
+}
