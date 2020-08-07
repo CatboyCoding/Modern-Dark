@@ -688,3 +688,7 @@ div[class^="uploadModal"]>div[class^="footer"] {
 .flexChild-faoVW3 > div:nth-of-type(2) > .selectable-2GY4I1:hover {
   filter: blur(0px);
 }
+
+.content-1LAB8Z {
+  padding-top: 15px !important;
+}
