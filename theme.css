@@ -692,3 +692,21 @@ div[class^="uploadModal"]>div[class^="footer"] {
 .content-1LAB8Z {
   padding-top: 15px !important;
 }
+
+.profileBadges-2vWUYb {
+  flex-wrap: wrap;
+}
+
+.replyBadge-bDxE-3{
+    background: transparent;
+}
+.container-1iy2YY{
+    width: 100%;
+    max-width: unset;
+}
+.content-2FB3dM{
+    opacity: .8;
+}
+.container-1iy2YY:hover .content-2FB3dM{
+    opacity: 1;
+}
