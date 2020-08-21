@@ -5,7 +5,57 @@
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
 
-:root {
+.theme-light {
+  --header-primary: #fff !important;
+  --header-secondary: #b9bbbe !important;
+  --text-normal: #dcddde !important;
+  --text-muted: #72767d !important;
+  --text-link: #00b0f4 !important;
+  --channels-default: #8e9297 !important;
+  --interactive-normal: #b9bbbe !important;
+  --interactive-hover: #dcddde !important;
+  --interactive-active: #fff !important;
+  --interactive-muted: #4f545c !important;
+	
+  --background-accent: #4f545c !important;
+  
+  --background-mobile-primary: #36393f !important;
+  --background-mobile-secondary: #2f3136 !important;
+  --background-modifier-hover: rgba(79,84,92,0.16) !important;
+  --background-modifier-active: rgba(79,84,92,0.24) !important;
+  --background-modifier-selected: rgba(79,84,92,0.32) !important;
+  --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+  --background-mentioned: rgba(250,166,26,0.05) !important;
+  --background-mentioned-hover: rgba(250,166,26,0.08) !important;
+  --background-message-hover: rgba(4,4,5,0.07) !important;
+  --background-help-warning: rgba(250,166,26,0.1) !important;
+  --background-help-info: rgba(0,176,244,0.1) !important;
+  --scrollbar-thin-thumb: #202225 !important;
+  --scrollbar-thin-track: transparent !important;
+  --scrollbar-auto-thumb: #202225 !important;
+  --scrollbar-auto-track: #2e3338 !important;
+  --scrollbar-auto-scrollbar-color-thumb: #202225 !important;
+  --scrollbar-auto-scrollbar-color-track: #2f3136 !important;
+  --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important;
+  --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+  --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important;
+  --elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important;
+  --logo-primary: #fff !important;
+  --focus-primary: #00b0f4 !important;
+  --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4) !important;
+
+  --activity-card-background: #202225 !important;
+  --textbox-markdown-syntax: #8e9297 !important;
+  --deprecated-card-bg: rgba(32,34,37,0.6) !important;
+  --deprecated-card-editable-bg: rgba(32,34,37,0.3) !important;
+  --deprecated-store-bg: #36393f !important;
+  --deprecated-quickswitcher-input-background: #72767d !important;
+  --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3) !important;
+  --deprecated-text-input-bg: rgba(0,0,0,0.1) !important;
+  --deprecated-text-input-border: rgba(0,0,0,0.3) !important;
+}
+
+:root, .theme-light {
   --unread-badge: rgba(255, 255, 255, 0.6) !important;
   --unread-background: rgba(255, 255, 255, 0.008) !important;
   --selected-badge: rgb(112, 135, 215) !important;
@@ -288,17 +338,10 @@ button[style='background-image: url("https://powercord.dev/assets/github_color.p
   pointer-events: none;
 }
 
-/*Bottom*/
-*[class*="body-"][class*="thin-"],
-*[class*="root-"][class*="small-"],
-*[class*="content-"][class*="thin-"] {
-  border-top: none;
-  background-color: var(--background-secondary) !important;
-}
-
 *[class*="footer-"]:not([class*="directionRow-"]) {
   padding-top: 15px;
   background-color: var(--background-tertiary) !important;
+  box-shadow: inset 0 1px 0 var(--toast-box-shadow) !important;
 }
 
 *[class*="protip-"] {
@@ -501,16 +544,6 @@ button[aria-label="Send a gift"] {
   mask: none !important;
 }
 
-rect[height="15"] {
-  height: 10px;
-  y: 22;
-}
-
-rect[height="24"] {
-  height: 16px;
-  y: 57;
-}
-
 rect {
   stroke: var(--background-secondary);
   stroke-width: 2px;
@@ -595,4 +628,41 @@ div[class^="uploadModal"]>div[class^="footer"] {
 }
 .container-1iy2YY:hover .content-2FB3dM{
     opacity: 1;
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+    background: var(--background-primary);
+}
+
+.footer-2jdoRS {
+	margin: 0 !important;
+  padding: 32px 0 !important;
+}
+
+.content-1LAB8Z.slideBody-35BNbg.slideBody-MG_LIJ.thin-1ybCId.scrollerBase-289Jih,
+.content-1LAB8Z.slideBody-2nMrnU/*             */.thin-1ybCId.scrollerBase-289Jih {
+	overflow-y: auto !important;
+	height: 100% !important;
+}
+
+.action-1lSjCi {
+  border-color: rgba(0,0,0,.2) !important;
+  background: var(--background-tertiary) !important;
+}
+
+.modal-yWgWj- {
+  background: var(--background-primary) !important;
+}
+
+.input-UJ9Tr3,.input-cIJ7To,.input-1mgnkM {
+  color: var(--text-normal) !important;
+  border-bottom-color: var(--background-tertiary) !important;
+}
+
+.input-UJ9Tr3:focus,.input-cIJ7To:focus,.input-1mgnkM:focus {
+  border-bottom-color: var(--brand-color-hover) !important;
+}
+
+.avatarUploaderInner-3UNxY3 {
+  border-color: var(--background-tertiary) !important;
 }
